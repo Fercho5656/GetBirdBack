@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Get Bird Back",
+  "version": "1.0",
+  "description": "Replaces the new 𝕏 logo for the old bird one.",
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "16": "twitter-ico.png",
+    "48": "twitter-ico.png",
+    "128": "twitter-ico.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "bird.svg",
+        "darkbird.svg",
+        "twitter-ico.ico"
+      ],
+      "matches": [
+        "https://*.twitter.com/*"
+      ]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.twitter.com/*"
+      ],
+      "js": [
+        "content_script.js"
+      ]
+    }
+  ]
+}
