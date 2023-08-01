@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Get Bird Back",
   "version": "1.0",
-  "description": "Replaces the new 𝕏 logo for the old bird one.",
+  "description": "Replaces the ugly 𝕏 logo with the OG bird one.",
   "permissions": [
     "tabs"
   ],
