@@ -10,3 +10,7 @@
 2. Go to Chrome extensions tab: chrome://extensions/
 3. Enable developer mode
 4. Drag and drop the .crx file and install it
+
+
+## Stuff to implement
+- Replace loading icon
